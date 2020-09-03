@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/git-thread.iml" filepath="$PROJECT_DIR$/.idea/git-thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/snail-thread.iml" filepath="$PROJECT_DIR$/snail-thread/snail-thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread03_getName/thread03_getName.iml" filepath="$PROJECT_DIR$/snail-thread/thread03_getName/thread03_getName.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread04_setName/thread04_setName.iml" filepath="$PROJECT_DIR$/snail-thread/thread04_setName/thread04_setName.iml" />
     </modules>
   </component>
 </project>

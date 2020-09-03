@@ -12,6 +12,7 @@
         <module>thread01_thread</module>
         <module>thread02_run</module>
         <module>thread03_getName</module>
+        <module>thread04_setName</module>
     </modules>
 
 
