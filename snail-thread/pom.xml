@@ -18,6 +18,7 @@
         <module>thread07_InnerClassThread</module>
         <module>thread08_ThreadSafe</module>
         <module>thread09_synchronized</module>
+        <module>thread10_synchronizedMethod</module>
     </modules>
 
 
