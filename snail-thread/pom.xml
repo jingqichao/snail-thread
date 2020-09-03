@@ -15,6 +15,7 @@
         <module>thread04_setName</module>
         <module>thread05_sleep</module>
         <module>thread06_Runnable</module>
+        <module>thread07_InnerClassThread</module>
     </modules>
 
 
