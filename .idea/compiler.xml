@@ -8,9 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="thread06_Runnable" />
         <module name="thread04_setName" />
-        <module name="thread03_getName" />
+        <module name="thread08_ThreadSafe" />
         <module name="thread07_InnerClassThread" />
         <module name="thread05_sleep" />
+        <module name="thread03_getName" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="thread05_sleep" target="1.5" />
       <module name="thread06_Runnable" target="1.5" />
       <module name="thread07_InnerClassThread" target="1.5" />
+      <module name="thread08_ThreadSafe" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
