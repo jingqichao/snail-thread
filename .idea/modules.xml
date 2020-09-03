@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/git-thread.iml" filepath="$PROJECT_DIR$/.idea/git-thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/snail-thread.iml" filepath="$PROJECT_DIR$/snail-thread/snail-thread.iml" />
-      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread02_start/thread02_start.iml" filepath="$PROJECT_DIR$/snail-thread/thread02_start/thread02_start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread03_getName/thread03_getName.iml" filepath="$PROJECT_DIR$/snail-thread/thread03_getName/thread03_getName.iml" />
     </modules>
   </component>
 </project>

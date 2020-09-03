@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="thread02_start" />
+        <module name="thread03_getName" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="snail-thread" target="1.5" />
       <module name="thread01_thread" target="1.5" />
       <module name="thread02_start" target="1.5" />
+      <module name="thread03_getName" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
