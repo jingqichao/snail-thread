@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="thread06_Runnable" />
         <module name="thread04_setName" />
         <module name="thread03_getName" />
+        <module name="thread05_sleep" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +18,8 @@
       <module name="thread02_start" target="1.5" />
       <module name="thread03_getName" target="1.5" />
       <module name="thread04_setName" target="1.5" />
+      <module name="thread05_sleep" target="1.5" />
+      <module name="thread06_Runnable" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

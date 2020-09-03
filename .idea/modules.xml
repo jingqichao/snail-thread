@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/snail-thread/snail-thread.iml" filepath="$PROJECT_DIR$/snail-thread/snail-thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread03_getName/thread03_getName.iml" filepath="$PROJECT_DIR$/snail-thread/thread03_getName/thread03_getName.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread04_setName/thread04_setName.iml" filepath="$PROJECT_DIR$/snail-thread/thread04_setName/thread04_setName.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread05_sleep/thread05_sleep.iml" filepath="$PROJECT_DIR$/snail-thread/thread05_sleep/thread05_sleep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread06_Runnable/thread06_Runnable.iml" filepath="$PROJECT_DIR$/snail-thread/thread06_Runnable/thread06_Runnable.iml" />
     </modules>
   </component>
 </project>

@@ -13,6 +13,8 @@
         <module>thread02_run</module>
         <module>thread03_getName</module>
         <module>thread04_setName</module>
+        <module>thread05_sleep</module>
+        <module>thread06_Runnable</module>
     </modules>
 
 
