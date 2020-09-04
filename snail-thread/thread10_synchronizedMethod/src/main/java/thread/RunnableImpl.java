@@ -21,8 +21,8 @@ public class RunnableImpl implements Runnable {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        ticket--;
         System.out.println(Thread.currentThread().getName()+"正在卖第"+ticket+"张票");
+        ticket--;
 
     }
 }
