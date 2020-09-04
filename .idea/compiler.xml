@@ -16,6 +16,7 @@
         <module name="thread13_WaitAndNotify" />
         <module name="thread05_sleep" />
         <module name="thread04_setName" />
+        <module name="thread14_waitTimeAndNotifyAll" />
         <module name="thread07_InnerClassThread" />
       </profile>
     </annotationProcessing>
@@ -34,6 +35,7 @@
       <module name="thread11_staticSynchronized" target="1.5" />
       <module name="thread12_Lock" target="1.5" />
       <module name="thread13_WaitAndNotify" target="1.5" />
+      <module name="thread14_waitTimeAndNotifyAll" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

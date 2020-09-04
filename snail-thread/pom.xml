@@ -22,6 +22,7 @@
         <module>thread11_staticSynchronized</module>
         <module>thread12_Lock</module>
         <module>thread13_WaitAndNotify</module>
+        <module>thread14_waitTimeAndNotifyAll</module>
     </modules>
 
 
