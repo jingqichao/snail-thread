@@ -13,6 +13,7 @@
         <module name="thread12_Lock" />
         <module name="thread03_getName" />
         <module name="thread11_staticSynchronized" />
+        <module name="thread13_WaitAndNotify" />
         <module name="thread05_sleep" />
         <module name="thread04_setName" />
         <module name="thread07_InnerClassThread" />
@@ -32,6 +33,7 @@
       <module name="thread10_synchronizedMethod" target="1.5" />
       <module name="thread11_staticSynchronized" target="1.5" />
       <module name="thread12_Lock" target="1.5" />
+      <module name="thread13_WaitAndNotify" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

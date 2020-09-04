@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread10_synchronizedMethod/thread10_synchronizedMethod.iml" filepath="$PROJECT_DIR$/snail-thread/thread10_synchronizedMethod/thread10_synchronizedMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread11_staticSynchronized/thread11_staticSynchronized.iml" filepath="$PROJECT_DIR$/snail-thread/thread11_staticSynchronized/thread11_staticSynchronized.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread12_Lock/thread12_Lock.iml" filepath="$PROJECT_DIR$/snail-thread/thread12_Lock/thread12_Lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread13_WaitAndNotify/thread13_WaitAndNotify.iml" filepath="$PROJECT_DIR$/snail-thread/thread13_WaitAndNotify/thread13_WaitAndNotify.iml" />
     </modules>
   </component>
 </project>
