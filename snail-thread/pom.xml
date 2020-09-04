@@ -20,6 +20,7 @@
         <module>thread09_synchronized</module>
         <module>thread10_synchronizedMethod</module>
         <module>thread11_staticSynchronized</module>
+        <module>thread12_Lock</module>
     </modules>
 
 
