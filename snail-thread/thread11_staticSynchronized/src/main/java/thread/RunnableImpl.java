@@ -4,7 +4,6 @@ public class RunnableImpl implements Runnable {
 
     private static int ticket = 100;
 
-    //Object object = new Object();
     public void run() {
         while (true){
             if(ticket>0){
