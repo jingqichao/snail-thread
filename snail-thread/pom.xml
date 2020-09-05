@@ -24,6 +24,7 @@
         <module>thread13_WaitAndNotify</module>
         <module>thread14_waitTimeAndNotifyAll</module>
         <module>thread15_ThreadCommunication</module>
+        <module>thread16_ThreadPool</module>
     </modules>
 
 

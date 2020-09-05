@@ -16,6 +16,8 @@
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread12_Lock/thread12_Lock.iml" filepath="$PROJECT_DIR$/snail-thread/thread12_Lock/thread12_Lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread13_WaitAndNotify/thread13_WaitAndNotify.iml" filepath="$PROJECT_DIR$/snail-thread/thread13_WaitAndNotify/thread13_WaitAndNotify.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread14_waitTimeAndNotifyAll/thread14_waitTimeAndNotifyAll.iml" filepath="$PROJECT_DIR$/snail-thread/thread14_waitTimeAndNotifyAll/thread14_waitTimeAndNotifyAll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread15_ThreadCommunication/thread15_ThreadCommunication.iml" filepath="$PROJECT_DIR$/snail-thread/thread15_ThreadCommunication/thread15_ThreadCommunication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread16_ThreadPool/thread16_ThreadPool.iml" filepath="$PROJECT_DIR$/snail-thread/thread16_ThreadPool/thread16_ThreadPool.iml" />
     </modules>
   </component>
 </project>

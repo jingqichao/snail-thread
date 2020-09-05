@@ -6,18 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="thread06_Runnable" />
-        <module name="thread10_synchronizedMethod" />
-        <module name="thread09_synchronized" />
-        <module name="thread08_ThreadSafe" />
         <module name="thread12_Lock" />
-        <module name="thread03_getName" />
-        <module name="thread11_staticSynchronized" />
-        <module name="thread13_WaitAndNotify" />
+        <module name="thread06_Runnable" />
+        <module name="thread15_ThreadCommunication" />
         <module name="thread05_sleep" />
+        <module name="thread16_ThreadPool" />
+        <module name="thread11_staticSynchronized" />
+        <module name="thread08_ThreadSafe" />
+        <module name="thread09_synchronized" />
         <module name="thread04_setName" />
-        <module name="thread14_waitTimeAndNotifyAll" />
+        <module name="thread03_getName" />
         <module name="thread07_InnerClassThread" />
+        <module name="thread14_waitTimeAndNotifyAll" />
+        <module name="thread10_synchronizedMethod" />
+        <module name="thread13_WaitAndNotify" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,6 +38,8 @@
       <module name="thread12_Lock" target="1.5" />
       <module name="thread13_WaitAndNotify" target="1.5" />
       <module name="thread14_waitTimeAndNotifyAll" target="1.5" />
+      <module name="thread15_ThreadCommunication" target="1.5" />
+      <module name="thread16_ThreadPool" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>
