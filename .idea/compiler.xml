@@ -17,15 +17,14 @@
         <module name="thread04_setName" />
         <module name="thread03_getName" />
         <module name="thread07_InnerClassThread" />
+        <module name="thread17_ThreadAndLambda" />
         <module name="thread14_waitTimeAndNotifyAll" />
         <module name="thread10_synchronizedMethod" />
         <module name="thread13_WaitAndNotify" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="snail-thread" target="1.5" />
-      <module name="thread01_thread" target="1.5" />
-      <module name="thread02_start" target="1.5" />
       <module name="thread03_getName" target="1.5" />
       <module name="thread04_setName" target="1.5" />
       <module name="thread05_sleep" target="1.5" />
@@ -40,6 +39,7 @@
       <module name="thread14_waitTimeAndNotifyAll" target="1.5" />
       <module name="thread15_ThreadCommunication" target="1.5" />
       <module name="thread16_ThreadPool" target="6" />
+      <module name="thread17_ThreadAndLambda" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
