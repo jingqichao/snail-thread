@@ -8,6 +8,10 @@ class MyData{
 public class LookTest {
     //验证volatile的可见性
     public static void main(String[] args) {
+        seeOkByVolatile();
+    }
+
+    public static void seeOkByVolatile(){
         MyData myData = new MyData();
         //新起线程
         new Thread(()->{
