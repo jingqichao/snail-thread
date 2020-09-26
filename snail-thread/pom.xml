@@ -27,6 +27,7 @@
         <module>thread16_ThreadPool</module>
         <module>thread17_ThreadAndLambda</module>
         <module>thread18_Volatile</module>
+        <module>thread19_CountDownLatch</module>
     </modules>
 
 

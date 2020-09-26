@@ -21,10 +21,17 @@ public class LookTest {
     public static void main(String[] args) {
 
         noAtomicity();
+        intAdd();
     }
 
-
-
+    public static void intAdd() {
+        int i =10;
+        i=i++;
+//        int temp = i;
+//        i=i+1;
+//        i=temp;
+        System.out.println(i);
+    }
     //验证volatile的可见性，及时通知其他线程，主物理内存的值已经被修改。
     public static void seeOkByVolatile(){
         MyData myData = new MyData();
