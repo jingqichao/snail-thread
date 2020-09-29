@@ -28,6 +28,10 @@
         <module>thread17_ThreadAndLambda</module>
         <module>thread18_Volatile</module>
         <module>thread19_CountDownLatch</module>
+        <module>thread20_CallbaleAndFutureTask</module>
+        <module>thread21_ProductorAndConsumer</module>
+        <module>thread21_ProAndCumForLock_Condition</module>
+        <module>thread23_IternatePrint</module>
     </modules>
 
 

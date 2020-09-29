@@ -9,20 +9,24 @@
         <module name="thread12_Lock" />
         <module name="thread06_Runnable" />
         <module name="thread15_ThreadCommunication" />
+        <module name="thread20_CallbaleAndFutureTask" />
         <module name="thread19_CountDownLatch" />
         <module name="thread05_sleep" />
+        <module name="thread23_IternatePrint" />
         <module name="thread16_ThreadPool" />
         <module name="thread11_staticSynchronized" />
         <module name="thread18_Volatile" />
         <module name="thread08_ThreadSafe" />
         <module name="thread09_synchronized" />
+        <module name="thread13_WaitAndNotify" />
         <module name="thread04_setName" />
+        <module name="thread22_ProAndCumForLock_Condition" />
         <module name="thread03_getName" />
         <module name="thread07_InnerClassThread" />
-        <module name="thread17_ThreadAndLambda" />
+        <module name="thread21_ProductorAndConsumer" />
         <module name="thread14_waitTimeAndNotifyAll" />
         <module name="thread10_synchronizedMethod" />
-        <module name="thread13_WaitAndNotify" />
+        <module name="thread17_ThreadAndLambda" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -44,6 +48,10 @@
       <module name="thread17_ThreadAndLambda" target="1.8" />
       <module name="thread18_Volatile" target="1.8" />
       <module name="thread19_CountDownLatch" target="1.8" />
+      <module name="thread20_CallbaleAndFutureTask" target="1.8" />
+      <module name="thread21_ProductorAndConsumer" target="1.8" />
+      <module name="thread22_ProAndCumForLock_Condition" target="1.8" />
+      <module name="thread23_IternatePrint" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

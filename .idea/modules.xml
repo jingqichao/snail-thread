@@ -21,6 +21,10 @@
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread17_ThreadAndLambda/thread17_ThreadAndLambda.iml" filepath="$PROJECT_DIR$/snail-thread/thread17_ThreadAndLambda/thread17_ThreadAndLambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread18_Volatile/thread18_Volatile.iml" filepath="$PROJECT_DIR$/snail-thread/thread18_Volatile/thread18_Volatile.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread19_CountDownLatch/thread19_CountDownLatch.iml" filepath="$PROJECT_DIR$/snail-thread/thread19_CountDownLatch/thread19_CountDownLatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread20_CallbaleAndFutureTask/thread20_CallbaleAndFutureTask.iml" filepath="$PROJECT_DIR$/snail-thread/thread20_CallbaleAndFutureTask/thread20_CallbaleAndFutureTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread21_ProductorAndConsumer/thread21_ProductorAndConsumer.iml" filepath="$PROJECT_DIR$/snail-thread/thread21_ProductorAndConsumer/thread21_ProductorAndConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread22_ProAndCumForLock_Condition/thread22_ProAndCumForLock_Condition.iml" filepath="$PROJECT_DIR$/snail-thread/thread22_ProAndCumForLock_Condition/thread22_ProAndCumForLock_Condition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread23_IternatePrint/thread23_IternatePrint.iml" filepath="$PROJECT_DIR$/snail-thread/thread23_IternatePrint/thread23_IternatePrint.iml" />
     </modules>
   </component>
 </project>
