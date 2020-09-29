@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread22_ProAndCumForLock_Condition/thread22_ProAndCumForLock_Condition.iml" filepath="$PROJECT_DIR$/snail-thread/thread22_ProAndCumForLock_Condition/thread22_ProAndCumForLock_Condition.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread23_IternatePrint/thread23_IternatePrint.iml" filepath="$PROJECT_DIR$/snail-thread/thread23_IternatePrint/thread23_IternatePrint.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread24_ReadWriteLock/thread24_ReadWriteLock.iml" filepath="$PROJECT_DIR$/snail-thread/thread24_ReadWriteLock/thread24_ReadWriteLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread25_ThreadPool/thread25_ThreadPool.iml" filepath="$PROJECT_DIR$/snail-thread/thread25_ThreadPool/thread25_ThreadPool.iml" />
     </modules>
   </component>
 </project>

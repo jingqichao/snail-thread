@@ -17,6 +17,7 @@
         <module name="thread16_ThreadPool" />
         <module name="thread11_staticSynchronized" />
         <module name="thread18_Volatile" />
+        <module name="thread25_ThreadPool" />
         <module name="thread08_ThreadSafe" />
         <module name="thread09_synchronized" />
         <module name="thread13_WaitAndNotify" />
@@ -54,6 +55,7 @@
       <module name="thread22_ProAndCumForLock_Condition" target="1.8" />
       <module name="thread23_IternatePrint" target="1.8" />
       <module name="thread24_ReadWriteLock" target="1.8" />
+      <module name="thread25_ThreadPool" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

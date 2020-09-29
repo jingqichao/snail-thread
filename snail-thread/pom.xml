@@ -33,6 +33,7 @@
         <module>thread21_ProAndCumForLock_Condition</module>
         <module>thread23_IternatePrint</module>
         <module>thread24_ReadWriteLock</module>
+        <module>thread25_ThreadPool</module>
     </modules>
 
 
