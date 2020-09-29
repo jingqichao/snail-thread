@@ -13,6 +13,7 @@
         <module name="thread19_CountDownLatch" />
         <module name="thread05_sleep" />
         <module name="thread23_IternatePrint" />
+        <module name="thread24_ReadWriteLock" />
         <module name="thread16_ThreadPool" />
         <module name="thread11_staticSynchronized" />
         <module name="thread18_Volatile" />
@@ -52,6 +53,7 @@
       <module name="thread21_ProductorAndConsumer" target="1.8" />
       <module name="thread22_ProAndCumForLock_Condition" target="1.8" />
       <module name="thread23_IternatePrint" target="1.8" />
+      <module name="thread24_ReadWriteLock" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
