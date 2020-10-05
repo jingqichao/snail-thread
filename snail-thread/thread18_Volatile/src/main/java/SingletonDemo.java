@@ -1,12 +1,12 @@
 public class SingletonDemo {
 
-    private static SingletonDemo instance = null;
+    private static volatile SingletonDemo instance = null;
 
     private SingletonDemo(){
         System.out.println(Thread.currentThread().getName()+"构造方法");
     }
 
-    //DCL（Double Check Lock双端检锁机制）
+    //DCL（Double Check Lock双端检锁机制），不一定线程安全，原因是有指令重排的问题
     public static SingletonDemo getInstance(){
         if (instance == null){
             //在方法内部加同步代码块
