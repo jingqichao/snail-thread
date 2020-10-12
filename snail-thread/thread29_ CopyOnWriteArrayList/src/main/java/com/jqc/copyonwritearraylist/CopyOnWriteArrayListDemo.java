@@ -1,6 +1,7 @@
 package com.jqc.copyonwritearraylist;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.CopyOnWriteArraySet;
 
@@ -29,6 +30,8 @@ public class CopyOnWriteArrayListDemo {
 //        Set<String> set = new CopyOnWriteArraySet<>();
 //        set.add("a");
         //Exception in thread "0" java.util.ConcurrentModificationException
+        ConcurrentHashMap<String,String> map = new ConcurrentHashMap<>();
+        map.put("a","a");
         for (int i = 0; i < 40 ; i++) {
             new Thread(() ->{
                 list.add(UUID.randomUUID().toString().substring(0,8));
