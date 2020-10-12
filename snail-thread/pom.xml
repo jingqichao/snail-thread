@@ -34,6 +34,7 @@
         <module>thread23_IternatePrint</module>
         <module>thread24_ReadWriteLock</module>
         <module>thread25_ThreadPool</module>
+        <module>thread26_CAS</module>
     </modules>
 
 
