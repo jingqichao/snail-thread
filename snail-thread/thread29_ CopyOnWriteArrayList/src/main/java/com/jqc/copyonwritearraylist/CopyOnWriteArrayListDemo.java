@@ -1,8 +1,8 @@
 package com.jqc.copyonwritearraylist;
 
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.CopyOnWriteArraySet;
 
 public class CopyOnWriteArrayListDemo {
     /**
@@ -24,8 +24,12 @@ public class CopyOnWriteArrayListDemo {
      * 可以对CopyOnWrite容器进行并发的读，而不需要加锁，因为当前容器不会添加任何元素。
      */
     public static void main(String[] args) {
-        CopyOnWriteArrayList<String> list = new CopyOnWriteArrayList<>();
-        for (int i = 0; i < 10 ; i++) {
+        List<String> list = new ArrayList<>();
+        //CopyOnWriteArrayList<String> list = new CopyOnWriteArrayList<>();
+//        Set<String> set = new CopyOnWriteArraySet<>();
+//        set.add("a");
+        //Exception in thread "0" java.util.ConcurrentModificationException
+        for (int i = 0; i < 40 ; i++) {
             new Thread(() ->{
                 list.add(UUID.randomUUID().toString().substring(0,8));
                 System.out.println(list);
