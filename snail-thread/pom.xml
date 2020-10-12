@@ -35,6 +35,7 @@
         <module>thread24_ReadWriteLock</module>
         <module>thread25_ThreadPool</module>
         <module>thread26_CAS</module>
+        <module>thread27_AtomicReference</module>
     </modules>
 
 

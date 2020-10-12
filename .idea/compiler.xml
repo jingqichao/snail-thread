@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="thread27_AtomicReference" />
         <module name="thread12_Lock" />
         <module name="thread06_Runnable" />
         <module name="thread15_ThreadCommunication" />
@@ -58,6 +59,7 @@
       <module name="thread24_ReadWriteLock" target="1.8" />
       <module name="thread25_ThreadPool" target="1.8" />
       <module name="thread26_CAS" target="1.8" />
+      <module name="thread27_AtomicReference" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
