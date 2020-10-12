@@ -30,6 +30,7 @@
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread26_CAS/thread26_CAS.iml" filepath="$PROJECT_DIR$/snail-thread/thread26_CAS/thread26_CAS.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread27_AtomicReference/thread27_AtomicReference.iml" filepath="$PROJECT_DIR$/snail-thread/thread27_AtomicReference/thread27_AtomicReference.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread28_ABA/thread28_ABA.iml" filepath="$PROJECT_DIR$/snail-thread/thread28_ABA/thread28_ABA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread29_ CopyOnWriteArrayList/thread29_ CopyOnWriteArrayList.iml" filepath="$PROJECT_DIR$/snail-thread/thread29_ CopyOnWriteArrayList/thread29_ CopyOnWriteArrayList.iml" />
     </modules>
   </component>
 </project>

@@ -37,6 +37,7 @@
         <module>thread26_CAS</module>
         <module>thread27_AtomicReference</module>
         <module>thread28_ABA</module>
+        <module>thread29_ CopyOnWriteArrayList</module>
     </modules>
 
 
