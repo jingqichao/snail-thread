@@ -29,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread25_ThreadPool/thread25_ThreadPool.iml" filepath="$PROJECT_DIR$/snail-thread/thread25_ThreadPool/thread25_ThreadPool.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread26_CAS/thread26_CAS.iml" filepath="$PROJECT_DIR$/snail-thread/thread26_CAS/thread26_CAS.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread27_AtomicReference/thread27_AtomicReference.iml" filepath="$PROJECT_DIR$/snail-thread/thread27_AtomicReference/thread27_AtomicReference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread28_ABA/thread28_ABA.iml" filepath="$PROJECT_DIR$/snail-thread/thread28_ABA/thread28_ABA.iml" />
     </modules>
   </component>
 </project>

@@ -36,6 +36,7 @@
         <module>thread25_ThreadPool</module>
         <module>thread26_CAS</module>
         <module>thread27_AtomicReference</module>
+        <module>thread28_ABA</module>
     </modules>
 
 

@@ -15,6 +15,7 @@
         <module name="thread05_sleep" />
         <module name="thread23_IternatePrint" />
         <module name="thread24_ReadWriteLock" />
+        <module name="thread28_ABA" />
         <module name="thread16_ThreadPool" />
         <module name="thread11_staticSynchronized" />
         <module name="thread18_Volatile" />
@@ -60,6 +61,7 @@
       <module name="thread25_ThreadPool" target="1.8" />
       <module name="thread26_CAS" target="1.8" />
       <module name="thread27_AtomicReference" target="1.8" />
+      <module name="thread28_ABA" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
