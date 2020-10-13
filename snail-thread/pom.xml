@@ -39,6 +39,7 @@
         <module>thread28_ABA</module>
         <module>thread29_ CopyOnWriteArrayList</module>
         <module>thread30_ReenterLockDemo</module>
+        <module>thread31_SpinLock</module>
     </modules>
 
 

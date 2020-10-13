@@ -12,6 +12,7 @@
         <module name="thread06_Runnable" />
         <module name="thread15_ThreadCommunication" />
         <module name="thread20_CallbaleAndFutureTask" />
+        <module name="thread31_SpinLock" />
         <module name="thread19_CountDownLatch" />
         <module name="thread05_sleep" />
         <module name="thread23_IternatePrint" />
@@ -66,6 +67,7 @@
       <module name="thread28_ABA" target="1.8" />
       <module name="thread29_ CopyOnWriteArrayList" target="1.8" />
       <module name="thread30_ReenterLockDemo" target="1.8" />
+      <module name="thread31_SpinLock" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

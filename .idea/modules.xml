@@ -32,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread28_ABA/thread28_ABA.iml" filepath="$PROJECT_DIR$/snail-thread/thread28_ABA/thread28_ABA.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread29_ CopyOnWriteArrayList/thread29_ CopyOnWriteArrayList.iml" filepath="$PROJECT_DIR$/snail-thread/thread29_ CopyOnWriteArrayList/thread29_ CopyOnWriteArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread30_ReenterLockDemo/thread30_ReenterLockDemo.iml" filepath="$PROJECT_DIR$/snail-thread/thread30_ReenterLockDemo/thread30_ReenterLockDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread31_SpinLock/thread31_SpinLock.iml" filepath="$PROJECT_DIR$/snail-thread/thread31_SpinLock/thread31_SpinLock.iml" />
     </modules>
   </component>
 </project>
