@@ -27,6 +27,7 @@
         <module name="thread22_ProAndCumForLock_Condition" />
         <module name="thread03_getName" />
         <module name="thread26_CAS" />
+        <module name="thread30_ReenterLockDemo" />
         <module name="thread07_InnerClassThread" />
         <module name="thread17_ThreadAndLambda" />
         <module name="thread21_ProductorAndConsumer" />
@@ -64,6 +65,7 @@
       <module name="thread27_AtomicReference" target="1.8" />
       <module name="thread28_ABA" target="1.8" />
       <module name="thread29_ CopyOnWriteArrayList" target="1.8" />
+      <module name="thread30_ReenterLockDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

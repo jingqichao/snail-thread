@@ -38,6 +38,7 @@
         <module>thread27_AtomicReference</module>
         <module>thread28_ABA</module>
         <module>thread29_ CopyOnWriteArrayList</module>
+        <module>thread30_ReenterLockDemo</module>
     </modules>
 
 
