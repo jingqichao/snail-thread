@@ -1,15 +1,32 @@
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
+/**
+ *
+ * 独占锁（写锁）:指该锁一次只能被一个线程锁持有。ReentrantLock和synchronized都是独占锁
+ * 共享锁（读锁）:指该锁可被多个线程锁持有。
+ * 对于ReentrantReadWriteLock其读锁时共享锁，其写锁时独占锁
+ * 读锁的共享锁可保证并发读是非常高效的，读写，写读，写写的过程都是互质的。
+ * read正在写
+ * read写完了
+ * read正在写
+ * read写完了
+ * write：正在读
+ * write：读完了
+ * read正在写
+ * read写完了
+ */
 public class TestReadWriteLock {
     public static void main(String[] args) {
         ReadWriteLockDemo rw = new ReadWriteLockDemo();
-        new Thread(() ->{
-            rw.get();
-         },"write").start();
-        for (int i = 0; i < 100 ; i++) {
+        for (int i = 0; i < 20 ; i++) {
             new Thread(() ->{
-                rw.set(100);
+                rw.get();
+            },"write：").start();
+         }
+        for (int i = 0; i < 20 ; i++) {
+            new Thread(() ->{
+                rw.set(10);
             },"read").start();
          }
     }
@@ -21,17 +38,24 @@ class ReadWriteLockDemo{
     public void get(){
         lock.readLock().lock();
         try{
-            System.out.println(Thread.currentThread().getName()+"读");
+            System.out.println(Thread.currentThread().getName()+"正在读");
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }finally {
+            System.out.println(Thread.currentThread().getName()+"读完了");
             lock.readLock().unlock();
         }
     }
     public void set(int number){
         lock.writeLock().lock();
         try{
-            System.out.println(Thread.currentThread().getName()+"写");
+            System.out.println(Thread.currentThread().getName()+"正在写");
             this.number = number;
         }finally {
+            System.out.println(Thread.currentThread().getName()+"写完了");
             lock.writeLock().unlock();
         }
     }
