@@ -19,6 +19,7 @@
         <module name="thread17_ThreadAndLambda" />
         <module name="thread32_BlockingQueue" />
         <module name="thread19_CountDownLatch" />
+        <module name="thread33_CyclicBarrier" />
         <module name="thread04_setName" />
         <module name="thread03_getName" />
         <module name="thread05_sleep" />
@@ -70,6 +71,7 @@
       <module name="thread30_ReenterLockDemo" target="1.8" />
       <module name="thread31_SpinLock" target="1.8" />
       <module name="thread32_BlockingQueue" target="1.8" />
+      <module name="thread33_CyclicBarrier" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

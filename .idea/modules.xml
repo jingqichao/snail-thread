@@ -34,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread30_ReenterLockDemo/thread30_ReenterLockDemo.iml" filepath="$PROJECT_DIR$/snail-thread/thread30_ReenterLockDemo/thread30_ReenterLockDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread31_SpinLock/thread31_SpinLock.iml" filepath="$PROJECT_DIR$/snail-thread/thread31_SpinLock/thread31_SpinLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread32_BlockingQueue/thread32_BlockingQueue.iml" filepath="$PROJECT_DIR$/snail-thread/thread32_BlockingQueue/thread32_BlockingQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread33_CyclicBarrier/thread33_CyclicBarrier.iml" filepath="$PROJECT_DIR$/snail-thread/thread33_CyclicBarrier/thread33_CyclicBarrier.iml" />
     </modules>
   </component>
 </project>
