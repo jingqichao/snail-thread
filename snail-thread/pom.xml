@@ -42,6 +42,7 @@
         <module>thread31_SpinLock</module>
         <module>thread32_BlockingQueue</module>
         <module>thread33_CyclicBarrier</module>
+        <module>thread34_Semaphore</module>
     </modules>
 
 
