@@ -8,10 +8,16 @@ public class TestCallable {
         ClallbaleDemo clallbaleDemo = new ClallbaleDemo();
         //执行Callable方式，需要FutureTask实现类的支持，用于接收计算结果
         FutureTask<Integer> futureTask = new FutureTask<Integer>(clallbaleDemo);
-        new Thread(futureTask).start();
+        new Thread(futureTask,"AA").start();
+        new Thread(futureTask,"BB").start();//多个线程抢一个futureTask，只计算一次
         //接受线程运行结果
         try {
-            Integer sum = futureTask.get();//FutureTask可用于闭锁
+            while(!futureTask.isDone()){//没算完一直等着
+
+            }
+            //FutureTask可用于闭锁
+            //要求获取线程的计算结果，如果计算完成就会去强求，会导致堵塞，直到所有计算都完成，futureTask.get()建议放到最后
+            Integer sum = futureTask.get();
             System.out.println("sum："+sum);
             System.out.println("______________________");
         } catch (InterruptedException e) {
