@@ -43,6 +43,7 @@
         <module>thread32_BlockingQueue</module>
         <module>thread33_CyclicBarrier</module>
         <module>thread34_Semaphore</module>
+        <module>thread35_ProductorAndConsumer_BlockingQueue</module>
     </modules>
 
 

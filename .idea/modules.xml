@@ -36,6 +36,7 @@
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread32_BlockingQueue/thread32_BlockingQueue.iml" filepath="$PROJECT_DIR$/snail-thread/thread32_BlockingQueue/thread32_BlockingQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread33_CyclicBarrier/thread33_CyclicBarrier.iml" filepath="$PROJECT_DIR$/snail-thread/thread33_CyclicBarrier/thread33_CyclicBarrier.iml" />
       <module fileurl="file://$PROJECT_DIR$/snail-thread/thread34_Semaphore/thread34_Semaphore.iml" filepath="$PROJECT_DIR$/snail-thread/thread34_Semaphore/thread34_Semaphore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snail-thread/thread35_ProductorAndConsumer_BlockingQueue/thread35_ProductorAndConsumer_BlockingQueue.iml" filepath="$PROJECT_DIR$/snail-thread/thread35_ProductorAndConsumer_BlockingQueue/thread35_ProductorAndConsumer_BlockingQueue.iml" />
     </modules>
   </component>
 </project>
