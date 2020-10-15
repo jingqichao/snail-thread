@@ -8,9 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="thread23_IternatePrint" />
         <module name="thread07_InnerClassThread" />
+        <module name="thread37_DeadLock" />
         <module name="thread34_Semaphore" />
+        <module name="thread03_getName" />
         <module name="thread25_ThreadPool" />
-        <module name="thread36_MyThreadPoolExecutor" />
         <module name="thread09_synchronized" />
         <module name="thread12_Lock" />
         <module name="thread08_ThreadSafe" />
@@ -24,22 +25,22 @@
         <module name="thread19_CountDownLatch" />
         <module name="thread33_CyclicBarrier" />
         <module name="thread04_setName" />
-        <module name="thread03_getName" />
+        <module name="thread36_MyThreadPoolExecutor" />
         <module name="thread05_sleep" />
         <module name="thread20_CallbaleAndFutureTask" />
         <module name="thread22_ProAndCumForLock_Condition" />
         <module name="thread31_SpinLock" />
         <module name="thread30_ReenterLockDemo" />
+        <module name="thread18_Volatile" />
         <module name="thread26_CAS" />
         <module name="thread06_Runnable" />
         <module name="thread29_ CopyOnWriteArrayList" />
         <module name="thread10_synchronizedMethod" />
         <module name="thread27_AtomicReference" />
         <module name="thread13_WaitAndNotify" />
-        <module name="thread14_waitTimeAndNotifyAll" />
         <module name="thread15_ThreadCommunication" />
         <module name="thread28_ABA" />
-        <module name="thread18_Volatile" />
+        <module name="thread14_waitTimeAndNotifyAll" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -78,6 +79,7 @@
       <module name="thread34_Semaphore" target="1.8" />
       <module name="thread35_ProductorAndConsumer_BlockingQueue" target="1.8" />
       <module name="thread36_MyThreadPoolExecutor" target="1.8" />
+      <module name="thread37_DeadLock" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

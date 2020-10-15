@@ -45,6 +45,7 @@
         <module>thread34_Semaphore</module>
         <module>thread35_ProductorAndConsumer_BlockingQueue</module>
         <module>thread36_MyThreadPoolExecutor</module>
+        <module>thread37_DeadLock</module>
     </modules>
 
 
